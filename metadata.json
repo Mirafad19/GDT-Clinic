@@ -1,0 +1,6 @@
+{
+  "name": "Gilead Digital Therapy Clinic",
+  "description": "A high-fidelity patient portal, physiotherapist console, and admin dashboard with interactive body mapping, appointment booking, payment processing, telehealth consultation, and exercise prescription tracking.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
