@@ -54,7 +54,7 @@ function MainAppContent() {
                 <span className="text-[10px] uppercase font-black text-emerald-600 tracking-wider flex items-center gap-1 font-mono">
                   <ShieldCheck className="w-3.5 h-3.5" /> HIPAA Compliant Telehealth
                 </span>
-                <span className="font-extrabold text-slate-800 text-lg block leading-none">PhysioCare Clinical Hub</span>
+                <span className="font-extrabold text-slate-800 text-lg block leading-none">GDT Clinic Hub</span>
               </div>
             </div>
 
@@ -117,7 +117,7 @@ function MainAppContent() {
 
           {/* Footer credentials check */}
           <footer className="bg-white border-t border-slate-200 py-4 px-6 text-center text-[10.5px] font-medium text-slate-400 space-y-1">
-            <p>Protected by PhysioCare cryptographic security. HIPAA & GDPR Client Privacy Seals Verified.</p>
+            <p>Protected by GDT Clinic cryptographic security. HIPAA & GDPR Client Privacy Seals Verified.</p>
             <p className="font-mono text-[9px] text-slate-300">Build session: UTC 2026-06-09 | SSL: sha256_aes_gcm</p>
           </footer>
         </>

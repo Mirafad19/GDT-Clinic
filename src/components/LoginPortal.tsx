@@ -27,8 +27,8 @@ export const LoginPortal: React.FC<LoginPortalProps> = ({ onLoginSuccess }) => {
   const getEmailForRole = (role: UserRole) => {
     switch (role) {
       case 'patient': return 'jane.cooper@example.com';
-      case 'physiotherapist': return 'alan.smith.pt@physiocare.id';
-      case 'admin': return 'admin.support@physiocare.id';
+      case 'physiotherapist': return 'alan.smith.pt@gdtclinic.ng';
+      case 'admin': return 'admin.support@gdtclinic.ng';
     }
   };
 
@@ -77,7 +77,7 @@ export const LoginPortal: React.FC<LoginPortalProps> = ({ onLoginSuccess }) => {
           <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center mx-auto mb-4 border border-white/20">
             <Shield className="w-6 h-6 text-white" />
           </div>
-          <h2 className="text-2xl font-bold font-sans">PhysioCare Portal</h2>
+          <h2 className="text-2xl font-bold font-sans">GDT Clinic Portal</h2>
           <p className="text-emerald-100 text-xs mt-1">
             Telehealth Consulting & Exercise Recovery Workspace
           </p>

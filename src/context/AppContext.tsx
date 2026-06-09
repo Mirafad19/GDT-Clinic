@@ -244,7 +244,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
     addNotification(
       'WhatsApp Notification Dispatched',
-      `Delivered: "Your PhysioCare session PT reference is active. Use security access code ${accessCode} to sign-in."`,
+      `Delivered: "Your GDT Clinic session PT reference is active. Use security access code ${accessCode} to sign-in."`,
       'payment_rec',
       ['WhatsApp']
     );
